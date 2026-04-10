@@ -3,7 +3,7 @@
 </script>
 
 <main class="page">
-	<h1>Error {page.status}</h1>
-	<p>{page.error?.message ?? "Something went wrong."}</p>
-	<a href="/">Go back home</a>
+	<h1>Oops – {page.status}</h1>
+	<p>{page.error?.message ?? "We couldn't process your request. Please try again."}</p>
+	<a href="/">Return to workspace</a>
 </main>

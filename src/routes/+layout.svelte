@@ -4,7 +4,7 @@
 	import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<div class="min-h-screen flex flex-col font-sans bg-[#fbfbfb] text-gray-900 selection:bg-dryft-blue selection:text-white">
+<div class="min-h-screen flex flex-col font-sans bg-[#fbfbfb] text-gray-900 selection:bg-thoughtful-blue selection:text-white">
 	<Header />
 	<main class="flex-grow">
 		<slot />

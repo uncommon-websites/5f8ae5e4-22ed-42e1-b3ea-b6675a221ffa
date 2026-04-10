@@ -2,7 +2,8 @@
   import { onMount } from 'svelte';
 </script>
 
-<div class="flex flex-col w-full overflow-hidden">
+<!-- HERO SECTION (USER APPROVED) -->
+<div class="w-full bg-dot-grid text-[#111827] font-sans antialiased min-h-screen flex flex-col overflow-x-hidden">
   
   <!-- HERO SECTION -->
   <section class="relative w-full pt-32 pb-20 md:pt-48 md:pb-32 px-6 border-b border-gray-200 grid-bg">
@@ -11,16 +12,16 @@
       <!-- Left Content -->
       <div class="flex flex-col items-start z-10 relative">
         <div class="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-3 py-1 text-xs font-medium text-gray-600 mb-8 shadow-sm">
-          <span class="w-2 h-2 rounded-full bg-dryft-blue"></span>
+          <span class="w-2 h-2 rounded-full bg-thoughtful-blue"></span>
           Announcing our $5M round led by General Catalyst,...
         </div>
         
         <h1 class="text-5xl md:text-7xl font-semibold tracking-tight text-black mb-6 leading-[1.1]">
           Intelligence that <br />
-          <span class="text-dryft-blue relative inline-block">
+          <span class="text-thoughtful-blue relative inline-block">
             Runs
             <!-- Cursor/Underline decoration could go here -->
-             <svg class="absolute -bottom-2 left-0 w-full h-3 text-dryft-blue opacity-50" viewBox="0 0 100 10" preserveAspectRatio="none">
+             <svg class="absolute -bottom-2 left-0 w-full h-3 text-thoughtful-blue opacity-50" viewBox="0 0 100 10" preserveAspectRatio="none">
                 <path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="2" fill="none" />
              </svg>
           </span> 
@@ -28,10 +29,10 @@
         </h1>
         
         <p class="text-xl text-gray-600 mb-10 max-w-lg leading-relaxed">
-          Dryft builds artificial intelligence that mimics, optimizes, and automates complex human decisions in manufacturing operations
+          Thoughtful builds artificial intelligence that mimics, optimizes, and automates complex human decisions in manufacturing operations
         </p>
         
-        <button class="bg-dryft-blue text-white px-6 py-3 rounded-sm font-medium text-sm tracking-wide flex items-center gap-2 hover:bg-blue-700 transition-colors">
+        <button class="bg-thoughtful-blue text-white px-6 py-3 rounded-sm font-medium text-sm tracking-wide flex items-center gap-2 hover:bg-blue-700 transition-colors">
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 11V1L10 6L3 11Z" fill="currentColor"/>
           </svg>
@@ -65,7 +66,7 @@
               </g>
 
               <!-- Blue Annotations -->
-              <g class="text-dryft-blue" stroke="currentColor" fill="none" stroke-width="1">
+              <g class="text-thoughtful-blue" stroke="currentColor" fill="none" stroke-width="1">
                  <rect x="220" y="120" width="100" height="100" stroke-dasharray="4 4" />
                  <text x="220" y="110" fill="currentColor" font-size="10" font-family="monospace">A24729382</text>
                  
@@ -76,8 +77,8 @@
            </svg>
 
            <!-- Floating Hugo AI Card -->
-           <div class="absolute top-1/3 right-10 bg-[#f0f4ff] border border-dryft-blue/30 p-4 rounded shadow-lg max-w-xs font-mono text-xs text-gray-700 z-20">
-              <div class="flex justify-between items-center text-dryft-blue mb-2 border-b border-dryft-blue/10 pb-2">
+           <div class="absolute top-1/3 right-10 bg-[#f0f4ff] border border-thoughtful-blue/30 p-4 rounded shadow-lg max-w-xs font-mono text-xs text-gray-700 z-20">
+              <div class="flex justify-between items-center text-thoughtful-blue mb-2 border-b border-thoughtful-blue/10 pb-2">
                  <span>A247293C3</span>
                  <div class="w-3 h-3 border border-current"></div>
               </div>
@@ -91,8 +92,8 @@
               </div>
               
               <!-- Connector Line -->
-               <div class="absolute -left-4 top-10 w-4 h-px bg-dryft-blue/50"></div>
-               <div class="absolute -left-4 top-10 w-1 h-1 bg-dryft-blue rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+               <div class="absolute -left-4 top-10 w-4 h-px bg-thoughtful-blue/50"></div>
+               <div class="absolute -left-4 top-10 w-1 h-1 bg-thoughtful-blue rounded-full -translate-x-1/2 -translate-y-1/2"></div>
            </div>
         </div>
       </div>
@@ -100,7 +101,7 @@
   </section>
 
   <!-- BLUE SECTION -->
-  <section class="bg-dryft-blue text-white py-24 md:py-32 px-6 relative overflow-hidden grid-bg-blue" id="manifesto">
+  <section class="bg-thoughtful-blue text-white py-24 md:py-32 px-6 relative overflow-hidden grid-bg-blue" id="manifesto">
     <!-- Grid overlay is handled by grid-bg-blue class -->
     
     <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 relative z-10">
@@ -115,19 +116,19 @@
 
         <div class="space-y-8 text-xl md:text-2xl font-light leading-relaxed opacity-90">
           <p>
-            Every few decades, technology rewrites the rules.
+            Every few decades, technology reshapes collaboration.
           </p>
           <p>
-            In the 1970s, we built ERPs on mainframes — a computing revolution that unified operational data for the first time.
+            Teams once depended on disconnected workflows — knowledge scattered across tools, never compounding.
           </p>
           <p>
-            For half a century, no one has truly reimagined how humans interact with what became the backbone of our industrial world today.
+            For decades, no software has deeply rethought how collaborative knowledge gets captured, shared, and put into action to drive real productivity.
           </p>
           <p class="font-medium opacity-100">
-            Dryft is changing that.
+            Thoughtful aims to change that.
           </p>
           <p class="opacity-70">
-            We combine agent-based intelligence with mathematical optimization to build what comes after ERPs: systems that think, act, and adapt autonomously across manufacturing operations.
+            We combine a multiplayer-native chat platform with AI agents and skills, delivering compounding utility through shared context, code execution, and open knowledge for every team.
           </p>
         </div>
       </div>
@@ -154,7 +155,7 @@
             </svg>
             
             <div class="absolute bottom-4 right-4 text-xs font-mono opacity-50">
-               Neural Networks [2020s]
+               Collective Intelligence [2020s]
             </div>
          </div>
       </div>
@@ -170,5 +171,88 @@
     <div class="absolute top-1/2 right-6 -translate-y-1/2 text-white/40">+</div>
 
   </section>
+
+<!-- FEATURES SECTION -->
+<section class="bg-white py-24 px-6 border-b border-gray-100" id="features">
+  <div class="max-w-7xl mx-auto w-full">
+    <div class="mb-14 text-center">
+      <h2 class="text-4xl md:text-5xl font-semibold text-[#244BFF] mb-4">How Thoughtful Works</h2>
+      <p class="text-lg text-gray-700 max-w-2xl mx-auto">A multiplayer AI workspace that compounds your team’s knowledge and executes real work, not just chat.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-12 mt-16">
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4 w-16 h-16 rounded-full bg-[#eaf0ff] flex items-center justify-center">
+          <svg width="32" height="32" fill="none" viewBox="0 0 32 32" class="text-[#244BFF]"><circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="2"/><path d="M10 16h12M16 10v12" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Multiplayer-native Chat</h3>
+        <p class="text-gray-600">Collaborate in real time with teammates, AI agents, and skills in a single, persistent workspace.</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4 w-16 h-16 rounded-full bg-[#eaf0ff] flex items-center justify-center">
+          <svg width="32" height="32" fill="none" viewBox="0 0 32 32" class="text-[#244BFF]"><rect x="6" y="6" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2"/><path d="M16 10v8M12 16h8" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Shared Skills & AI Agents</h3>
+        <p class="text-gray-600">Leverage reusable skills and powerful AI agents that understand your team’s context and drive action.</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4 w-16 h-16 rounded-full bg-[#eaf0ff] flex items-center justify-center">
+          <svg width="32" height="32" fill="none" viewBox="0 0 32 32" class="text-[#244BFF]"><path d="M8 24V8l16 8-16 8z" fill="currentColor"/></svg>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Executable Code & API Integration</h3>
+        <p class="text-gray-600">Run code and connect to APIs directly from chat, automating real work and integrating your tools.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12 mt-16">
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4 w-16 h-16 rounded-full bg-[#eaf0ff] flex items-center justify-center">
+          <svg width="32" height="32" fill="none" viewBox="0 0 32 32" class="text-[#244BFF]"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M10 22c4-8 8-8 12 0" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Compounding Team Knowledge</h3>
+        <p class="text-gray-600">Every message and workflow strengthens your proprietary knowledge base—no more fragmented context.</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="mb-4 w-16 h-16 rounded-full bg-[#eaf0ff] flex items-center justify-center">
+          <svg width="32" height="32" fill="none" viewBox="0 0 32 32" class="text-[#244BFF]"><rect x="8" y="8" width="16" height="16" rx="4" stroke="currentColor" stroke-width="2"/><path d="M12 16h8" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Open Standards & Secure Privacy</h3>
+        <p class="text-gray-600">Thoughtful is built on open standards and puts your team’s privacy and IP ownership first.</p>
+      </div>
+    </div>
+    <div class="mt-16 flex justify-center">
+      <div class="w-full md:w-2/3 rounded-lg overflow-hidden shadow-lg border border-[#eaf0ff]">
+        <div class="w-full h-64 bg-[#eaf0ff] flex items-center justify-center text-[#244BFF] text-lg">[Image: Teams collaborating with Thoughtful's AI workspace]</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="bg-[#f8faff] py-24 px-6 border-b border-gray-100" id="testimonials">
+  <div class="max-w-4xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center gap-12">
+      <div class="w-full md:w-1/2 rounded-lg overflow-hidden shadow border border-[#eaf0ff] mb-8 md:mb-0">
+        <div class="w-full h-72 bg-[#eaf0ff] flex items-center justify-center text-[#244BFF] text-lg">[Image: Diverse team using Thoughtful chat platform]</div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <blockquote class="text-2xl leading-relaxed text-gray-900 font-light mb-4">“Thoughtful transformed the way our team collaborates. No more lost context—just instant, actionable knowledge and real AI-powered workflows.”</blockquote>
+        <div class="font-semibold text-[#244BFF]">Jordan Lee, Director of Operations<br><span class="text-gray-500 font-normal">Forward-Thinking Tech Company</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="py-24 px-6 bg-[#244BFF] text-white relative overflow-hidden" id="cta">
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+    <div class="flex-1">
+      <h2 class="text-4xl md:text-5xl font-semibold mb-4">Ready to unify your team’s intelligence?</h2>
+      <p class="text-lg mb-8">Start your private AI workspace with Thoughtful. Capture collaborative knowledge, execute code, and empower your team with real AI.</p>
+      <button class="bg-white text-[#244BFF] px-8 py-4 font-semibold rounded shadow hover:bg-blue-50 transition">Get Started</button>
+    </div>
+    <div class="flex-1 max-w-md w-full rounded-lg overflow-hidden shadow-lg border border-white/20">
+      <div class="w-full h-64 bg-white/20 flex items-center justify-center text-white text-lg">[Image: Professional using Thoughtful AI workspace]</div>
+    </div>
+  </div>
+</section>
 
 </div>
